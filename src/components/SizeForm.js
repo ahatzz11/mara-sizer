@@ -183,7 +183,7 @@ class SizeForm extends React.Component {
                     </Typography>
                 </TableCell>
                 <TableCell>
-                  {averageThrowLength}mm
+                  {averageThrowLength.toFixed(0)}mm
                 </TableCell>
               </TableRow>
 
